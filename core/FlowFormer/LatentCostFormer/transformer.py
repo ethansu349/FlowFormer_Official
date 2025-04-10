@@ -13,7 +13,7 @@ import sys
 print("当前工作目录为：", os.getcwd())
 print("模块搜索路径：", sys.path)
 
-# from utils.utils import coords_grid, bilinear_sampler, upflow8
+from utils.utils import coords_grid, bilinear_sampler, upflow8
 from ..common import FeedForward, pyramid_retrieve_tokens, sampler, sampler_gaussian_fix, retrieve_tokens, MultiHeadAttention, MLP
 from ..encoders import twins_svt_large_context, twins_svt_large
 from ...position_encoding import PositionEncodingSine, LinearPositionEncoding
